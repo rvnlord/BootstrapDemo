@@ -1,6 +1,6 @@
 ## Example of utilizing Bootstrap 4 controls and features with dark look and feel
 
-This solution has been created by following various tutorials and learning feeds. It's purpose is to present my knowledge of `Bootstrap 4` to anybody who seeks to verify my knowledge. Project contains examples of vast majority of all `Bootstrap` features (I heavily customised or changed some of them) as well as fixes or simple workarounds for common issues. Examples are condensed and present on a single Razor Page.
+This solution has been created by following various tutorials and learning feeds. It's purpose is to present my knowledge of `Bootstrap 4` to anybody who seeks to verify my knowledge. Project contains examples of vast majority of all `Bootstrap` features (I heavily customised or changed some of them) as well as fixes or simple workarounds for common issues. Examples are condensed and present on a single `Razor Page`.
    
 ### Features:
 
@@ -49,9 +49,9 @@ This solution has been created by following various tutorials and learning feeds
 * ScrollSpy
 * DatePicker (modified from JQuery UI)
 
-![1](/Images/2020-06-21_211309.png?raw=true)
+![1](/images/2020-06-21_211309.png?raw=true)
 
-![2](/Images/2020-06-21_211234.png?raw=true)
+![2](/images/2020-06-21_211234.png?raw=true)
 
 
 
