@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - BootstrapDemo</title>
+    <link href="~/lib-custom/font-awesome/css/all.css" rel="stylesheet" />
+    <link href="~/lib/jqueryui/jquery-ui.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/css/BootstrapCustomisations.css" rel="stylesheet" />
+</head>
+<body>
+    @RenderBody()
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/jqueryui/jquery-ui.js"></script>
+    <script src="~/lib-custom/font-awesome/js/all.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.bundle.js"></script>
+
+    <script src="~/js/BootstrapCustomisations.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
