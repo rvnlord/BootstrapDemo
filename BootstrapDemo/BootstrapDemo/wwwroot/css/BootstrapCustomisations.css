@@ -166,15 +166,25 @@ label {
 
 .col-form-label {
     line-height: 1.5;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    top: 50%;
-    transform: translateY(-50%);
-    position: absolute;
+    padding: calc((0.75rem + 2px) / 2) 0;
 }
 
+.col-form-label-sm {
+    line-height: 1.5;
+    padding: calc((0.25rem + 2px) / 2) 0;
+}
+
+.col-form-label-lg {
+    line-height: 1.5;
+    padding: calc((1rem + 2px) / 2) 0;
+}
+
+    .col-form-label:not(:first-child), .col-form-label-sm:not(:first-child), .col-form-label-lg:not(:first-child) {
+        padding-top: 0;
+    }
+
 @media (max-width: 575.98px) {
-    .col-form-label {
+    .col-form-label, .col-form-label-sm, .col-form-label-lg {
         padding-top: 0;
         padding-bottom: 0;
     }
@@ -695,16 +705,24 @@ textarea.form-control {
     color: #ff5050;
     padding: 0;
     line-height: 1.5;
-    padding-bottom: 5px;
-    top: 50%;
-    transform: translateY(-50%);
-    position: absolute;
 }
 
 @media (min-width: 992px) {
     .validation-message {
-        padding: 5px 0;
+        padding: calc((0.75rem + 2px) / 2) 0;
     }
+
+    .validation-message-sm {
+        padding: calc((0.25rem + 2px) / 2) 0;
+    }
+
+    .validation-message-lg {
+        padding: calc((1rem + 2px) / 2) 0;
+    }
+
+        .validation-message:not(:first-child), .validation-message-sm:not(:first-child), .validation-message-lg:not(:first-child) {
+            padding-top: 0;
+        }
 }
 
 .validation-message.valid {
